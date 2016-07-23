@@ -16,7 +16,7 @@ ws1 = wb.add_sheet('C')
 #ws.write(2, 2, xlwt.Formula("A3+B3"))
 
 ws.write(0, 0, 1)
-for i in range(0, 9):
+for i in range(0, 15):
     ws1.write(i,0,i)
     print i
 
